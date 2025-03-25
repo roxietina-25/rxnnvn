@@ -10,9 +10,9 @@
 }
 
 :root {
-   --bg-color: #FFFFFF;      /* White background */
+   --bg-color: #ffffff;      /* White background */
    --snd-bg-color: #c0b6b6;  /* Light gray for secondary background */
-   --text-color:  #F0F0F0;     /* Dark gray for text */
+   --text-color:  #f0f0f0;     /* Dark gray for text */
    --main-color: #000000;     /* Black for accents and highlights */
 }
 
@@ -263,7 +263,7 @@
 .projects-container .projects-box {
    flex: 1 1 30rem;
    background: var(--bg-color);
-   padding: 6rem 2rem 6 rem;
+   padding: 5rem 2rem 5 rem;
    border-radius: 2rem;
    text-align: center;
    border: 0.3rem solid var(--main-color);
