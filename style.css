@@ -10,10 +10,10 @@
 }
 
 :root {
-   --bg-color: #ffffff;      /* White background */
-   --snd-bg-color: #c0b6b6;  /* Light gray for secondary background */
-   --text-color:  #f0f0f0;     /* Dark gray for text */
-   --main-color: #000000;     /* Black for accents and highlights */
+   --bg-color: #ffffff;      
+   --snd-bg-color: #c0b6b6; 
+   --text-color:  #f0f0f0;    
+   --main-color: #000000;     
 }
 
  html {
@@ -102,7 +102,7 @@
 .home-img {
    margin-left: 5px;
    display: flex;
-   justify-content: flex-end; /* Align image to the right side of its container */
+   justify-content: flex-end; 
 }
 
 
@@ -462,12 +462,12 @@
       }
       
       .home-img {
-         justify-content: center; /* Center the image on mobile */
+         justify-content: center; 
       }
       
       .home-content {
          order: 2;
-         text-align: center; /* Center text on mobile */
+         text-align: center; 
       }
       
       .home-img img {
@@ -478,7 +478,7 @@
          justify-content: center;
       }
       
-    } /* Other media query rules remain the same */
+    } 
    .about {
       flex-direction: column;
    }
